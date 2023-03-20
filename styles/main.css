@@ -110,3 +110,74 @@ h3 {
   top: -12%;
   right: 5%;
 }
+
+@media (max-width: 768px) {
+  main {
+    padding: 20px 50px;
+  }
+
+  .main-info-container {
+    height: 60%;
+    flex-direction: column;
+    margin-bottom: 80px;
+    align-items: center;
+  }
+  .description-container {
+    height: 270px;
+  }
+
+  h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .main-grid-card h2 {
+    font-size: 32px;
+    margin: 70px 20px 130px 32px;
+  }
+
+  .main-grid-card h3 {
+    font-size: 20px;
+  }
+
+  .main-grid-card p {
+    font-size: 16px;
+  }
+
+  .main-grid-card button {
+    width: 130px;
+    height: 40px;
+  }
+
+  .headline-box {
+    width: 600px;
+    height: 110px;
+  }
+
+  .subtext-box {
+    width: 610px;
+    height: 95px;
+    margin-bottom: 30px;
+  }
+
+  .subtext-box p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .main-image-box img {
+    width: 680px;
+    height: 360px;
+  }
+
+  .main-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .main-grid-card {
+    width: 320px;
+    height: 270px;
+  }
+}

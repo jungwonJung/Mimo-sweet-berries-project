@@ -7,7 +7,6 @@ header {
 }
 
 header nav {
-  width: 11%;
   display: flex;
   justify-content: space-between;
 }
@@ -18,11 +17,13 @@ header nav a {
   font-size: 16px;
   font-weight: 500;
   font-family: "Roboto";
+  margin-right: 30px;
 }
 
 header img {
   width: 160px;
   height: 40px;
+  margin-left: -70px;
 }
 
 header button {
@@ -32,4 +33,10 @@ header button {
   height: 42px;
   border-radius: 28px;
   font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  header {
+    margin-bottom: -60px;
+  }
 }
