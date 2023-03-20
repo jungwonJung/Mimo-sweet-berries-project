@@ -1,0 +1,15 @@
+footer {
+  background-color: var(--yellow);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer img {
+  width: 130px;
+  height: 32px;
+}

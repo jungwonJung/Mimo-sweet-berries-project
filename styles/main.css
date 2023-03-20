@@ -1,0 +1,112 @@
+main {
+  padding: 30px 100px;
+  font-family: "Roboto Serif", "Roboto";
+}
+
+h1 {
+  font-family: "Roboto Serif";
+  color: var(--text-black);
+  font-size: 64px;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: "Roboto Serif";
+  font-size: 40px;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: "Roboto Serif";
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.main-info-container {
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.headline-box {
+  width: 500px;
+  margin-bottom: -40px;
+}
+
+.subtext-box {
+  width: 630px;
+}
+
+.subtext-box p {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--text-gray);
+}
+
+.main-image-box img {
+  width: 600px;
+  height: 440px;
+  border-radius: 40px;
+}
+
+.main-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 70px 40px;
+}
+
+.main-grid-card {
+  width: 400px;
+  height: 320px;
+  border-radius: 40px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+}
+
+.yellow {
+  background-color: var(--yellow);
+}
+
+.main-grid-card p {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 40px 20px 40px;
+}
+
+.main-grid-card h2 {
+  margin: 40px 40px 95px 40px;
+}
+
+.main-grid-card h3 {
+  margin: 40px 40px 0 40px;
+}
+
+.main-grid-card button {
+  width: 140px;
+  height: 48px;
+  border: 1px solid #dcdcdc;
+  border-radius: 50px;
+  background-color: white;
+  margin: 0px 40px 15px 40px;
+  font-size: 18px;
+}
+
+.main-grid-card img {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: -12%;
+  right: 5%;
+}
