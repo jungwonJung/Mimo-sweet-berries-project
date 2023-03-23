@@ -1,10 +1,10 @@
 footer {
   background-color: var(--yellow);
-  height: 80px;
+  height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   width: 100%;
 }
