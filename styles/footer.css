@@ -7,9 +7,16 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+  margin-top: 100px;
 }
 
 footer img {
   width: 130px;
   height: 32px;
+}
+
+@media (max-width: 390px) {
+  footer {
+    padding: 0 40px;
+  }
 }
