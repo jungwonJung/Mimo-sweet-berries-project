@@ -3,7 +3,6 @@ body {
   margin: 0;
   position: relative;
   min-height: 100%;
-  padding-bottom: 60px;
 }
 
 :root {
@@ -15,12 +14,15 @@ body {
 }
 
 body {
-  background-color: #e5e5e5;
+  background-color: #f5f3ef;
   font-family: "Roboto Serif";
 }
 
 @media (min-width: 1440px) {
-  body {
+  body,
+  header,
+  section,
+  footer {
     max-width: 1440px;
     margin: 0 auto;
   }

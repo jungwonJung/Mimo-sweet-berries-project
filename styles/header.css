@@ -4,6 +4,7 @@ header {
   padding: 30px 100px;
   justify-content: space-between;
   font-family: "Roboto";
+  justify-items: center;
 }
 
 header nav {
@@ -75,7 +76,7 @@ header .menu-trigger {
   bottom: 0;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1024px) {
   header {
     margin-bottom: -60px;
   }
@@ -84,6 +85,7 @@ header .menu-trigger {
 @media (max-width: 710px) {
   header {
     justify-content: space-around;
+    margin-left: 70px;
   }
   header nav {
     display: none;
@@ -93,17 +95,13 @@ header .menu-trigger {
     display: none;
   }
 
-  header div {
-    margin-left: 40px;
-    margin-right: -350px;
-  }
-
   header img {
     width: 130px;
   }
 
   header .menu-trigger {
-    display: inline;
+    display: block;
     left: 80%;
+    position: fixed;
   }
 }

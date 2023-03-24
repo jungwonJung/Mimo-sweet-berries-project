@@ -4,19 +4,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
   margin-top: 100px;
 }
 
 footer img {
   width: 130px;
   height: 32px;
-}
-
-@media (max-width: 710px) {
-  footer {
-    bottom: -3%;
-  }
 }
