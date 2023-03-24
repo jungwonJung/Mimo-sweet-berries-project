@@ -37,22 +37,19 @@ header button {
 }
 
 header .menu-trigger {
+  width: auto;
   display: none;
-  margin-right: 70px;
   margin-bottom: 50px;
+  position: relative;
+  width: 40px;
+  height: 24px;
+  margin-left: 50px;
 }
 .menu-trigger,
 .menu-trigger span {
   display: inline-block;
   transition: all 0.4s;
   box-sizing: border-box;
-}
-
-.menu-trigger {
-  position: relative;
-  left: 90%;
-  width: 40px;
-  height: 24px;
 }
 
 .menu-trigger span {
@@ -85,7 +82,8 @@ header .menu-trigger {
 @media (max-width: 710px) {
   header {
     justify-content: space-around;
-    margin-left: 70px;
+    justify-items: center;
+    margin-left: 160px;
   }
   header nav {
     display: none;
@@ -100,8 +98,6 @@ header .menu-trigger {
   }
 
   header .menu-trigger {
-    display: block;
-    left: 80%;
-    position: fixed;
+    display: inline-block;
   }
 }
