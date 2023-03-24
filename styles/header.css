@@ -75,15 +75,15 @@ header .menu-trigger {
   bottom: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 950px) {
   header {
     margin-bottom: -60px;
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 710px) {
   header {
-    justify-content: space-between;
+    justify-content: space-around;
   }
   header nav {
     display: none;
@@ -94,8 +94,8 @@ header .menu-trigger {
   }
 
   header div {
-    margin-left: 130px;
-    margin-right: -150px;
+    margin-left: 40px;
+    margin-right: -350px;
   }
 
   header img {
@@ -104,6 +104,6 @@ header .menu-trigger {
 
   header .menu-trigger {
     display: inline;
-    left: 100%;
+    left: 80%;
   }
 }

@@ -15,9 +15,8 @@ footer img {
   height: 32px;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 710px) {
   footer {
-    padding: 0 40px;
     bottom: -3%;
   }
 }

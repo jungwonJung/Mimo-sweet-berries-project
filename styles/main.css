@@ -113,7 +113,7 @@ h3 {
   right: 5%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 950px) {
   main {
     padding: 20px 40px;
   }
@@ -185,12 +185,9 @@ h3 {
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 710px) {
   main {
-    padding: 0 35px;
-  }
-  .main-info-container {
-    margin-left: 70px;
+    padding: 0 50px;
   }
 
   .main-image-box img {
