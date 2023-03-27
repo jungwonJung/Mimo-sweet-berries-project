@@ -118,6 +118,13 @@ p {
   background-color: white;
   margin: 0px 40px 15px 40px;
   font-size: 18px;
+  box-shadow: inset 0 0 0 0 var(--yellow);
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.main-grid-card button:hover {
+  box-shadow: inset 140px 0 0 0 var(--yellow);
+  color: white;
 }
 
 .main-grid-card img {

@@ -26,12 +26,26 @@ header nav {
   font-weight: 500;
   font-family: "Roboto";
   margin-right: 30px;
+  box-shadow: inset 0 0 0 0 var(--yellow);
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.menu a:hover {
+  box-shadow: inset 100px 0 0 0 var(--yellow);
+  color: white;
 }
 
 .hamburger-icon {
   display: none;
   padding: 0;
   margin: 0;
+  box-shadow: inset 0 0 0 0 #f5f3ef;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.hamburger-icon:hover {
+  box-shadow: inset 140px 0 0 0 #f5f3ef;
+  color: var(--yellow);
 }
 
 .hamburger {
@@ -50,6 +64,15 @@ header button {
   height: 42px;
   border-radius: 28px;
   font-size: 16px;
+  border: none;
+  box-shadow: inset 0 0 0 0 #f5f3ef;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+header button:hover {
+  box-shadow: inset 140px 0 0 0 #f5f3ef;
+  color: var(--text-black);
+  border: 1px solid var(--text-black);
 }
 
 @media (max-width: 710px) {
