@@ -5,7 +5,9 @@ header {
   justify-content: space-between;
   justify-items: center;
   align-items: center;
+  /* TODO: here apply font family to all elements and the font is also not imported via google fonts */
   font-family: "Roboto";
+  /* remove this by reducing the height of the element */
   margin-bottom: -50px;
 }
 
