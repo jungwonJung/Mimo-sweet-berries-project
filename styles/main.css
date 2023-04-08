@@ -1,3 +1,4 @@
+/* Great work on being detailed oriented and adding the right fonts to each component of the website. */
 main {
   padding: 30px 80px;
   font-family: "Roboto Serif", "Roboto";
@@ -28,7 +29,7 @@ p {
   padding: 0;
   margin: 0;
 }
-
+/* Nice work on using Flexbox properly to create some of the components. */
 .main-info-container {
   width: 100%;
   height: 30%;
@@ -56,7 +57,7 @@ p {
   font-weight: 400;
   color: var(--text-gray);
 }
-
+/* Awesome job on making the image responsive by giving it a % value for its width. */
 .main-image-box {
   width: 100%;
 }
@@ -70,6 +71,10 @@ p {
 }
 
 /* TODO: The setup of the grid is really good and it is responsive on all screen sizes */
+/* You haven’t used Grid template areas in your project.
+It is a requirement in the rubric.
+
+You can use the grid template areas for the main layout where you can define where each section should be located such as the navbar, banner, card-container, footer. */
 .main-grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -131,6 +136,7 @@ p {
 }
 
 /* TODO: great use of position absolute to move the icons into the top right corner */
+/* Great job on positioning your icons to the edge of the card by using position absolute and relative! */
 .main-grid-card img {
   position: absolute;
   width: 70px;
@@ -138,7 +144,7 @@ p {
   top: -12%;
   right: 5%;
 }
-
+/* Great work on making your project responsive using media queries properly! */
 @media (max-width: 1024px) {
   main {
     padding: 20px 40px;

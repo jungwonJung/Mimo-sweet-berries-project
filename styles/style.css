@@ -4,7 +4,7 @@ body {
   position: relative;
   min-height: 100%;
 }
-
+/* Nice work on using CSS variables! This makes things very organized! */
 :root {
   /* COLORS */
   --text-black: #000000;

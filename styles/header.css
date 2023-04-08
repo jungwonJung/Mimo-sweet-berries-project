@@ -1,3 +1,6 @@
+/*You have used CSS Grid and Flexbox in your project however you haven’t used them together properly.
+
+ The proper way to use them together would be to make the main layout a CSS Grid layout that would have the navbar, banner, card-container, and footer as grid items. */
 header {
   display: flex;
   height: 100px;
@@ -77,6 +80,8 @@ header button:hover {
   border: 1px solid var(--text-black);
 }
 
+/* Props to you for implementing a functional hamburger menu!
+Looks great and is functional! */
 @media (max-width: 710px) {
   header {
     margin-bottom: -10px;
